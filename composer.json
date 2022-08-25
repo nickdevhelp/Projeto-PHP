@@ -1,0 +1,19 @@
+{
+    "name": "admin/aulaphp",
+    "description": "meu primeiro projeto com composer",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Admin\\Aulaphp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nickdevhelp",
+            "email": "niquefonseca1307@gmail.com"
+        }
+    ]
+}
